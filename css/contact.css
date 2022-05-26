@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+}
+.color-white{
+    color: white;
+}
+.fixed-section{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    border: 1px solid #151f30;
+}
+.flex-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-contact-1{
+    padding: 160px 0 20px 0;
+    background-color: #131720;
+}
+.pad-sdn{
+    padding: 0 10px;
+}
+.section-contact-2{
+    background-color: #131720;
+}
+textarea{
+    resize: none;
+}
+.form-style{
+    background-color: #151f30;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+}
+.form-border-div{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #151f30;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.sdn-position-2{
+    padding-top: 20px;
+    position: absolute;
+    left: 0;
+}
+.contact-carousel-frame{
+    padding: 80px 0;
+}
+.logo-img{
+    width: 29%;
+}
