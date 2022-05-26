@@ -62,6 +62,8 @@ owl.owlCarousel({
 let scrollmenu = document.getElementById('navblock');
      
 document.addEventListener('scroll' , function(){
+    
+    if(scrollmenu){
     if (window.scrollY > 400 && window.scrollY < 1700 ) {
          let width = scrollmenu.parentElement.getBoundingClientRect().width;
          scrollmenu.style.width = width - 30 + "px";
@@ -74,7 +76,7 @@ document.addEventListener('scroll' , function(){
         scrollmenu.removeAttribute('style');
         // alert('1')
     }
-    
+    }
 })
 // --------scroll count-------------
     // window.onscroll = function (e) {
